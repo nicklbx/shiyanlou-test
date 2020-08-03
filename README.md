@@ -13,7 +13,7 @@ git commit -m "first commit"
 git remote rm origin
 
 #添加git 远程仓库地址
-git remote add origin https:#github.com/nicklbx/shiyanlou-test.git
+git remote add origin https://github.com/nicklbx/shiyanlou-test.git
 
 #推送到远程仓库
 git push -u origin master
