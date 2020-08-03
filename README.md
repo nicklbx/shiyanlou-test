@@ -34,4 +34,8 @@ git checkout branch-v0.1
 #强制清空本地修改
 git reset --hard
 
+#上面命令将本地的master分支推送到origin主机，
+#同时指定origin为默认主机，后面就可以不加任何参数使用git push了。
+git push -u origin master 
+
 ```
